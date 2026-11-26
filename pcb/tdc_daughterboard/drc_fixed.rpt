@@ -1,0 +1,212 @@
+** Drc report for tdc_daughterboard_fixed.kicad_pcb **
+** Created on 2026-07-22T22:17:01 **
+** Report includes: Errors, Warnings **
+
+** Found 49 DRC violations **
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(10.0000 mm, 140.0000 mm): Track [CS] on F.Cu, length 159.7135 mm
+    @(21.8500 mm, 20.0000 mm): Track [VDD] on F.Cu, length 125.6401 mm
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(10.0000 mm, 145.0800 mm): Track [VDD] on F.Cu, length 164.6878 mm
+    @(10.0000 mm, 147.6200 mm): Track [EN] on F.Cu, length 130.4593 mm
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(10.0000 mm, 142.5400 mm): Track [MOSI] on F.Cu, length 160.3704 mm
+    @(21.8500 mm, 20.0000 mm): Track [VDD] on F.Cu, length 125.6401 mm
+[shorting_items]: 短路了两个不同网络的项目 (网络 CS 和 VDD)
+    Local override; error
+    @(10.0000 mm, 140.0000 mm): PTH pad 1 [CS] of J1
+    @(21.8500 mm, 20.0000 mm): Track [VDD] on F.Cu, length 125.6401 mm
+[shorting_items]: 短路了两个不同网络的项目 (网络 VDD 和 EN)
+    Local override; error
+    @(21.8500 mm, 20.0000 mm): Pad 2 [VDD] of U3 on F.Cu
+    @(10.0000 mm, 147.6200 mm): Track [EN] on F.Cu, length 130.4593 mm
+[shorting_items]: 短路了两个不同网络的项目 (网络 GND 和 SIG)
+    Local override; error
+    @(82.5400 mm, 162.4600 mm): PTH pad 2 [GND] of J2
+    @(80.0000 mm, 165.0000 mm): Track [SIG] on F.Cu, length 39.8664 mm
+[shorting_items]: 短路了两个不同网络的项目 (网络 ADC_IN 和 )
+    Local override; error
+    @(100.9500 mm, 145.0000 mm): Track [ADC_IN] on F.Cu, length 77.6101 mm
+    @(172.1000 mm, 114.5000 mm): Pad 9 [<no net>] of U1 on F.Cu
+[shorting_items]: 短路了两个不同网络的项目 (网络 VDD 和 EN)
+    Local override; error
+    @(21.8500 mm, 20.0000 mm): Track [VDD] on F.Cu, length 6.3000 mm
+    @(10.0000 mm, 147.6200 mm): Track [EN] on F.Cu, length 130.4593 mm
+[shorting_items]: 短路了两个不同网络的项目 (网络 VREF 和 )
+    Local override; error
+    @(172.1000 mm, 115.5000 mm): Track [VREF] on F.Cu, length 31.1379 mm
+    @(172.1000 mm, 114.5000 mm): Pad 9 [<no net>] of U1 on F.Cu
+[shorting_items]: 短路了两个不同网络的项目 (网络 SIG 和 GND)
+    Local override; error
+    @(80.0000 mm, 165.0000 mm): PTH pad 1 [SIG] of J2
+    @(77.4600 mm, 167.5400 mm): Track [GND] on F.Cu, length 7.1842 mm
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.0895 mm)
+    Local override; error
+    @(167.9000 mm, 115.5000 mm): Pad 4 [MISO] of U1 on F.Cu
+    @(12.5400 mm, 140.0000 mm): Track [SCLK] on F.Cu, length 157.3586 mm
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.0505 mm)
+    Local override; error
+    @(12.5400 mm, 147.6200 mm): Track [RST] on F.Cu, length 158.9561 mm
+    @(167.9000 mm, 114.5000 mm): Pad 2 [MOSI] of U1 on F.Cu
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.0731 mm)
+    Local override; error
+    @(119.0500 mm, 105.0000 mm): Pad 1 [<no net>] of C22 on F.Cu
+    @(12.5400 mm, 145.0800 mm): Track [V5V] on F.Cu, length 171.5731 mm
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.0803 mm)
+    Local override; error
+    @(167.9000 mm, 116.0000 mm): Pad 5 [CS] of U1 on F.Cu
+    @(12.5400 mm, 142.5400 mm): Track [MISO] on F.Cu, length 157.6956 mm
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(167.9000 mm, 114.0000 mm): Pad 1 [RST] of U1 on F.Cu
+    @(167.9000 mm, 114.5000 mm): Pad 2 [MOSI] of U1 on F.Cu
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(167.9000 mm, 115.0000 mm): Pad 3 [SCLK] of U1 on F.Cu
+    @(167.9000 mm, 114.5000 mm): Pad 2 [MOSI] of U1 on F.Cu
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(167.9000 mm, 115.0000 mm): Pad 3 [SCLK] of U1 on F.Cu
+    @(167.9000 mm, 115.5000 mm): Pad 4 [MISO] of U1 on F.Cu
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(167.9000 mm, 115.5000 mm): Pad 4 [MISO] of U1 on F.Cu
+    @(167.9000 mm, 116.0000 mm): Pad 5 [CS] of U1 on F.Cu
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(172.1000 mm, 116.0000 mm): Pad 6 [VDD] of U1 on F.Cu
+    @(172.1000 mm, 115.5000 mm): Pad 7 [VREF] of U1 on F.Cu
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(172.1000 mm, 115.5000 mm): Pad 7 [VREF] of U1 on F.Cu
+    @(172.1000 mm, 115.0000 mm): Pad 8 [<no net>] of U1 on F.Cu
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(172.1000 mm, 114.5000 mm): Pad 9 [<no net>] of U1 on F.Cu
+    @(172.1000 mm, 115.0000 mm): Pad 8 [<no net>] of U1 on F.Cu
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(172.1000 mm, 114.5000 mm): Pad 9 [<no net>] of U1 on F.Cu
+    @(172.1000 mm, 114.0000 mm): Pad 10 [ADC_IN] of U1 on F.Cu
+[courtyards_overlap]: Courtyards overlap
+    Rule: <电路板配置> 中的 "元件外框" 约束; error
+    @(10.0000 mm, 140.0000 mm): Footprint J1
+    @(5.0000 mm, 165.0000 mm): Footprint MH3
+[solder_mask_bridge]: 顶层阻焊开窗区域与不同网络的项目相连
+    Rule: <电路板配置> 中的 "阻焊层最小宽度"; error
+    @(100.9500 mm, 145.0000 mm): Track [ADC_IN] on F.Cu, length 77.6101 mm
+    @(167.9000 mm, 115.5000 mm): Pad 4 [MISO] of U1 on F.Cu
+[solder_mask_bridge]: 顶层阻焊开窗区域与不同网络的项目相连
+    Rule: <电路板配置> 中的 "阻焊层最小宽度"; error
+    @(100.9500 mm, 145.0000 mm): Track [ADC_IN] on F.Cu, length 77.6101 mm
+    @(167.9000 mm, 116.0000 mm): Pad 5 [CS] of U1 on F.Cu
+[solder_mask_bridge]: 顶层阻焊开窗区域与不同网络的项目相连
+    Rule: <电路板配置> 中的 "阻焊层最小宽度"; error
+    @(100.9500 mm, 145.0000 mm): Track [ADC_IN] on F.Cu, length 77.6101 mm
+    @(172.1000 mm, 114.5000 mm): Pad 9 [<no net>] of U1 on F.Cu
+[solder_mask_bridge]: 顶层阻焊开窗区域与不同网络的项目相连
+    Rule: <电路板配置> 中的 "阻焊层最小宽度"; error
+    @(12.5400 mm, 142.5400 mm): Track [MISO] on F.Cu, length 157.6956 mm
+    @(85.9375 mm, 130.0000 mm): Pad 3 [<no net>] of Q1 on F.Cu
+[solder_mask_bridge]: 顶层阻焊开窗区域与不同网络的项目相连
+    Rule: <电路板配置> 中的 "阻焊层最小宽度"; error
+    @(80.0000 mm, 165.0000 mm): Track [SIG] on F.Cu, length 39.8664 mm
+    @(82.5400 mm, 162.4600 mm): PTH pad 2 [GND] of J2
+[solder_mask_bridge]: 顶层阻焊开窗区域与不同网络的项目相连
+    Rule: <电路板配置> 中的 "阻焊层最小宽度"; error
+    @(77.4600 mm, 167.5400 mm): Track [GND] on F.Cu, length 7.1842 mm
+    @(80.0000 mm, 165.0000 mm): PTH pad 1 [SIG] of J2
+[solder_mask_bridge]: 顶层阻焊开窗区域与不同网络的项目相连
+    Rule: <电路板配置> 中的 "阻焊层最小宽度"; error
+    @(10.0000 mm, 140.0000 mm): Track [CS] on F.Cu, length 159.7135 mm
+    @(84.0625 mm, 129.0500 mm): Pad 1 [<no net>] of Q1 on F.Cu
+[solder_mask_bridge]: 顶层阻焊开窗区域与不同网络的项目相连
+    Rule: <电路板配置> 中的 "阻焊层最小宽度"; error
+    @(10.0000 mm, 140.0000 mm): Track [CS] on F.Cu, length 159.7135 mm
+    @(12.5400 mm, 140.0000 mm): PTH pad 2 [SCLK] of J1
+[solder_mask_bridge]: 顶层阻焊开窗区域与不同网络的项目相连
+    Rule: <电路板配置> 中的 "阻焊层最小宽度"; error
+    @(21.8500 mm, 20.0000 mm): Track [VDD] on F.Cu, length 125.6401 mm
+    @(10.0000 mm, 140.0000 mm): PTH pad 1 [CS] of J1
+[solder_mask_bridge]: 顶层阻焊开窗区域与不同网络的项目相连
+    Rule: <电路板配置> 中的 "阻焊层最小宽度"; error
+    @(21.8500 mm, 20.0000 mm): Track [VDD] on F.Cu, length 125.6401 mm
+    @(10.0000 mm, 142.5400 mm): PTH pad 3 [MOSI] of J1
+[solder_mask_bridge]: 顶层阻焊开窗区域与不同网络的项目相连
+    Rule: <电路板配置> 中的 "阻焊层最小宽度"; error
+    @(12.5400 mm, 145.0800 mm): Track [V5V] on F.Cu, length 171.5731 mm
+    @(75.9125 mm, 120.0000 mm): Pad 2 [<no net>] of R6 on F.Cu
+[solder_mask_bridge]: 顶层阻焊开窗区域与不同网络的项目相连
+    Rule: <电路板配置> 中的 "阻焊层最小宽度"; error
+    @(10.0000 mm, 145.0800 mm): Track [VDD] on F.Cu, length 164.6878 mm
+    @(99.0875 mm, 130.0000 mm): Pad 1 [SIG] of R1 on F.Cu
+[solder_mask_bridge]: 顶层阻焊开窗区域与不同网络的项目相连
+    Rule: <电路板配置> 中的 "阻焊层最小宽度"; error
+    @(172.1000 mm, 115.5000 mm): Track [VREF] on F.Cu, length 31.1379 mm
+    @(172.5250 mm, 85.6350 mm): Pad 3 [<no net>] of U2 on F.Cu
+[solder_mask_bridge]: 顶层阻焊开窗区域与不同网络的项目相连
+    Rule: <电路板配置> 中的 "阻焊层最小宽度"; error
+    @(172.1000 mm, 115.5000 mm): Track [VREF] on F.Cu, length 31.1379 mm
+    @(172.5250 mm, 86.9050 mm): Pad 4 [<no net>] of U2 on F.Cu
+[solder_mask_bridge]: 顶层阻焊开窗区域与不同网络的项目相连
+    Rule: <电路板配置> 中的 "阻焊层最小宽度"; error
+    @(10.0000 mm, 145.0800 mm): Track [VDD] on F.Cu, length 164.6878 mm
+    @(12.5400 mm, 145.0800 mm): PTH pad 6 [V5V] of J1
+[solder_mask_bridge]: 顶层阻焊开窗区域与不同网络的项目相连
+    Rule: <电路板配置> 中的 "阻焊层最小宽度"; error
+    @(172.1000 mm, 115.5000 mm): Track [VREF] on F.Cu, length 31.1379 mm
+    @(172.1000 mm, 115.0000 mm): Pad 8 [<no net>] of U1 on F.Cu
+[solder_mask_bridge]: 顶层阻焊开窗区域与不同网络的项目相连
+    Rule: <电路板配置> 中的 "阻焊层最小宽度"; error
+    @(172.1000 mm, 115.5000 mm): Track [VREF] on F.Cu, length 31.1379 mm
+    @(172.1000 mm, 114.5000 mm): Pad 9 [<no net>] of U1 on F.Cu
+[solder_mask_bridge]: 顶层阻焊开窗区域与不同网络的项目相连
+    Rule: <电路板配置> 中的 "阻焊层最小宽度"; error
+    @(10.0000 mm, 147.6200 mm): Track [EN] on F.Cu, length 130.4593 mm
+    @(21.8500 mm, 20.0000 mm): Pad 2 [VDD] of U3 on F.Cu
+[solder_mask_bridge]: 顶层阻焊开窗区域与不同网络的项目相连
+    Rule: <电路板配置> 中的 "阻焊层最小宽度"; error
+    @(172.1000 mm, 115.5000 mm): Track [VREF] on F.Cu, length 31.1379 mm
+    @(172.1000 mm, 114.0000 mm): Pad 10 [ADC_IN] of U1 on F.Cu
+[solder_mask_bridge]: 顶层阻焊开窗区域与不同网络的项目相连
+    Rule: <电路板配置> 中的 "阻焊层最小宽度"; error
+    @(10.0000 mm, 147.6200 mm): Track [EN] on F.Cu, length 130.4593 mm
+    @(21.8500 mm, 22.3000 mm): Pad 3 [VDD] of U3 on F.Cu
+[solder_mask_bridge]: 顶层阻焊开窗区域与不同网络的项目相连
+    Rule: <电路板配置> 中的 "阻焊层最小宽度"; error
+    @(10.0000 mm, 147.6200 mm): Track [EN] on F.Cu, length 130.4593 mm
+    @(10.0000 mm, 140.0000 mm): PTH pad 1 [CS] of J1
+[solder_mask_bridge]: 顶层阻焊开窗区域与不同网络的项目相连
+    Rule: <电路板配置> 中的 "阻焊层最小宽度"; error
+    @(10.0000 mm, 147.6200 mm): Track [EN] on F.Cu, length 130.4593 mm
+    @(10.0000 mm, 142.5400 mm): PTH pad 3 [MOSI] of J1
+[solder_mask_bridge]: 顶层阻焊开窗区域与不同网络的项目相连
+    Rule: <电路板配置> 中的 "阻焊层最小宽度"; error
+    @(10.0000 mm, 147.6200 mm): Track [EN] on F.Cu, length 130.4593 mm
+    @(10.0000 mm, 145.0800 mm): PTH pad 5 [VDD] of J1
+[solder_mask_bridge]: 顶层阻焊开窗区域与不同网络的项目相连
+    Rule: <电路板配置> 中的 "阻焊层最小宽度"; error
+    @(10.0000 mm, 142.5400 mm): Track [MOSI] on F.Cu, length 160.3704 mm
+    @(84.0625 mm, 129.0500 mm): Pad 1 [<no net>] of Q1 on F.Cu
+[solder_mask_bridge]: 顶层阻焊开窗区域与不同网络的项目相连
+    Rule: <电路板配置> 中的 "阻焊层最小宽度"; error
+    @(10.0000 mm, 142.5400 mm): Track [MOSI] on F.Cu, length 160.3704 mm
+    @(12.5400 mm, 142.5400 mm): PTH pad 4 [MISO] of J1
+[copper_sliver]: 铜箔毛刺 (F.Cu)
+    Local override; warning
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

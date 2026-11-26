@@ -1,0 +1,130 @@
+** Drc report for tdc_daughterboard.kicad_pcb **
+** Created on 2026-07-19T01:30:20 **
+** Report includes: Errors, Warnings **
+
+** Found 9 DRC violations **
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(167.9000 mm, 114.0000 mm): Pad 1 [RST] of U1 on F.Cu
+    @(167.9000 mm, 114.5000 mm): Pad 2 [MOSI] of U1 on F.Cu
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(167.9000 mm, 115.0000 mm): Pad 3 [SCLK] of U1 on F.Cu
+    @(167.9000 mm, 114.5000 mm): Pad 2 [MOSI] of U1 on F.Cu
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(167.9000 mm, 115.0000 mm): Pad 3 [SCLK] of U1 on F.Cu
+    @(167.9000 mm, 115.5000 mm): Pad 4 [MISO] of U1 on F.Cu
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(167.9000 mm, 115.5000 mm): Pad 4 [MISO] of U1 on F.Cu
+    @(167.9000 mm, 116.0000 mm): Pad 5 [CS] of U1 on F.Cu
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(172.1000 mm, 116.0000 mm): Pad 6 [VDD] of U1 on F.Cu
+    @(172.1000 mm, 115.5000 mm): Pad 7 [VREF] of U1 on F.Cu
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(172.1000 mm, 115.0000 mm): Pad 8 [<no net>] of U1 on F.Cu
+    @(172.1000 mm, 115.5000 mm): Pad 7 [VREF] of U1 on F.Cu
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(172.1000 mm, 115.0000 mm): Pad 8 [<no net>] of U1 on F.Cu
+    @(172.1000 mm, 114.5000 mm): Pad 9 [<no net>] of U1 on F.Cu
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.1500 mm)
+    Local override; error
+    @(172.1000 mm, 114.5000 mm): Pad 9 [<no net>] of U1 on F.Cu
+    @(172.1000 mm, 114.0000 mm): Pad 10 [ADC_IN] of U1 on F.Cu
+[courtyards_overlap]: Courtyards overlap
+    Rule: <电路板配置> 中的 "元件外框" 约束; error
+    @(10.0000 mm, 140.0000 mm): Footprint J1
+    @(5.0000 mm, 165.0000 mm): Footprint MH3
+
+** Found 19 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(99.0500 mm, 145.0000 mm): Pad 1 [TAC] of C1 on F.Cu
+    @(100.9125 mm, 130.0000 mm): Pad 2 [TAC] of R1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(100.9500 mm, 145.0000 mm): Pad 2 [ADC_IN] of C1 on F.Cu
+    @(172.1000 mm, 114.0000 mm): Pad 10 [ADC_IN] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(80.0000 mm, 165.0000 mm): PTH pad 1 [SIG] of J2
+    @(99.0875 mm, 130.0000 mm): Pad 1 [SIG] of R1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(77.4600 mm, 162.4600 mm): PTH pad 2 [GND] of J2
+    @(77.4600 mm, 167.5400 mm): PTH pad 2 [GND] of J2
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(77.4600 mm, 167.5400 mm): PTH pad 2 [GND] of J2
+    @(82.5400 mm, 167.5400 mm): PTH pad 2 [GND] of J2
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(82.5400 mm, 162.4600 mm): PTH pad 2 [GND] of J2
+    @(77.4600 mm, 162.4600 mm): PTH pad 2 [GND] of J2
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(113.3500 mm, 145.0000 mm): Pad 1 [GND] of D2 on F.Cu
+    @(82.5400 mm, 162.4600 mm): PTH pad 2 [GND] of J2
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(12.5400 mm, 145.0800 mm): PTH pad 6 [V5V] of J1
+    @(172.5250 mm, 83.0950 mm): Pad 1 [V5V] of U2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(172.1000 mm, 115.5000 mm): Pad 7 [VREF] of U1 on F.Cu
+    @(172.5250 mm, 84.3650 mm): Pad 2 [VREF] of U2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(12.5400 mm, 147.6200 mm): PTH pad 8 [RST] of J1
+    @(167.9000 mm, 114.0000 mm): Pad 1 [RST] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10.0000 mm, 142.5400 mm): PTH pad 3 [MOSI] of J1
+    @(167.9000 mm, 114.5000 mm): Pad 2 [MOSI] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(12.5400 mm, 140.0000 mm): PTH pad 2 [SCLK] of J1
+    @(167.9000 mm, 115.0000 mm): Pad 3 [SCLK] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(12.5400 mm, 142.5400 mm): PTH pad 4 [MISO] of J1
+    @(167.9000 mm, 115.5000 mm): Pad 4 [MISO] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10.0000 mm, 140.0000 mm): PTH pad 1 [CS] of J1
+    @(167.9000 mm, 116.0000 mm): Pad 5 [CS] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10.0000 mm, 145.0800 mm): PTH pad 5 [VDD] of J1
+    @(172.1000 mm, 116.0000 mm): Pad 6 [VDD] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(21.8500 mm, 20.0000 mm): Pad 2 [VDD] of U3 on F.Cu
+    @(21.8500 mm, 22.3000 mm): Pad 3 [VDD] of U3 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(21.8500 mm, 22.3000 mm): Pad 3 [VDD] of U3 on F.Cu
+    @(10.0000 mm, 145.0800 mm): PTH pad 5 [VDD] of J1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(28.1500 mm, 20.0000 mm): Pad 2 [VDD] of U3 on F.Cu
+    @(21.8500 mm, 20.0000 mm): Pad 2 [VDD] of U3 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10.0000 mm, 147.6200 mm): PTH pad 7 [EN] of J1
+    @(21.8500 mm, 17.7000 mm): Pad 1 [EN] of U3 on F.Cu
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
